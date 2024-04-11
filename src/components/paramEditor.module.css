@@ -1,0 +1,24 @@
+.wrap {
+    position: absolute;
+    width: 350px;
+    right: -200px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(223, 175, 102);
+}
+
+.inputsWrap:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.inputsWrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.inputDescr {
+    display: block;
+    margin-right: 10px;
+}
