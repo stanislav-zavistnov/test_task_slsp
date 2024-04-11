@@ -2,6 +2,7 @@
 
 # or just:
 - git clone
+- cd test_task_slsp
 - npm i
 - npm run dev
 
